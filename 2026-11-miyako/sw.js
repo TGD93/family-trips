@@ -1,5 +1,5 @@
 /* offline cache for this trip only: its scope is this folder */
-const P = 'family-trips-2026-11-miyako-', V = P + 'v20261008032238', FONTS = P + 'fonts';
+const P = 'family-trips-2026-11-miyako-', V = P + 'v20261008033639', FONTS = P + 'fonts';
 const SCOPE = self.registration.scope;
 const CORE = ['./', './index.html', './app.bin', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './favicon.png'];
 self.addEventListener('install', e => {
